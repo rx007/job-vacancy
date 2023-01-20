@@ -11,7 +11,7 @@ gem 'yui-compressor', '0.9.6'
 
 # Component requirements
 gem 'erubis', '~> 2.7.0'
-gem 'activerecord', '~> 3.2.9', :require => 'active_record'
+gem 'activerecord', '~> 6.1.7', '>= 6.1.7.1', :require => 'active_record'
 gem 'sqlite3', '~> 1.3.9'
 
 gem 'timerizer', '0.1.4'
@@ -41,7 +41,7 @@ gem 'tilt', '1.4.1'
 
 # Padrino edge
 #gem 'padrino', :git => "git://github.com/padrino/padrino-framework.git"
-gem 'padrino', '0.12.5'
+gem 'padrino', '0.12.9'
 
 
 # Codecoverage tools
