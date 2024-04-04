@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Server requirements
-gem 'thin', '1.6.2'
+gem 'thin', '1.7.0'
 
 # Project requirements
 gem 'rake', '10.4.2'
@@ -17,14 +17,14 @@ gem 'sqlite3', '~> 1.3.9'
 gem 'timerizer', '0.1.4'
 
 group :development do
-  gem 'better_errors', '~> 2.1.1'
+  gem 'better_errors', '~> 2.2.0'
 end
 
 # Test requirements
 group :test do
   gem 'rspec' , '~> 3.3'
   gem 'factory_girl', '4.5.0'
-  gem 'rack-test', '~> 0.6.3', require:  'rack/test'
+  gem 'rack-test', '~> 0.7.0', require:  'rack/test'
 end
 
 # Automatically running tests
@@ -41,7 +41,7 @@ gem 'tilt', '1.4.1'
 
 # Padrino edge
 #gem 'padrino', :git => "git://github.com/padrino/padrino-framework.git"
-gem 'padrino', '0.12.5'
+gem 'padrino', '0.12.9'
 
 
 # Codecoverage tools
