@@ -28,7 +28,7 @@ group :test do
 end
 
 # Automatically running tests
-gem 'guard-rspec', '~> 4.6', require: false
+gem 'guard-rspec', '~> 4.6', '>= 4.6.5', require: false
 gem 'libnotify', '0.8.2'
 
 # Security
@@ -41,7 +41,7 @@ gem 'tilt', '1.4.1'
 
 # Padrino edge
 #gem 'padrino', :git => "git://github.com/padrino/padrino-framework.git"
-gem 'padrino', '0.12.5'
+gem 'padrino', '0.15.1'
 
 
 # Codecoverage tools
